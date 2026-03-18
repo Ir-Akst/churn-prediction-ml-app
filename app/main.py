@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Customer Retention Intelligence", layout="wide")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://churn-prediction-ml-app-jedn.onrender.com/predict"
 
 st.title("💳 Customer Retention Intelligence System")
 
